@@ -97,10 +97,6 @@ nav > ul {
     justify-content: space-between;
 }
 
-nav > ul > li:nth-child(1) {
-    font-size: var(--text);
-}
-
 .icon {
     width: 30px;
 }
@@ -113,17 +109,21 @@ nav > ul {
     list-style: none;
 }
 
-nav > ul > li {
-    padding: 50px 0;
-    transition: ease-in-out .3s;
+nav > ul > li:nth-child(1) {
+    font-size: var(--text);
 }
 
-.dontTouch {
-    animation: dontTouch 1s linear;
+nav > ul > li {
+    padding: 50px 0;
+    transition: ease-in-out 0.3s;
 }
 
 nav > ul > li:hover {
     transform: translate(0, -5px);
+}
+
+.dontTouch {
+    animation: dontTouch 1s linear;
 }
 
 .home {
@@ -133,7 +133,7 @@ nav > ul > li:hover {
     width: 100%;
 }
 
-.home > div > span {
+.home > div > h1 {
     font-weight: 900;
     font-size: var(--title);
 
@@ -215,6 +215,10 @@ nav > ul > li:hover {
         top: -30px;
         flex-direction: column;
         height: 70vh;
+    }
+
+    nav > ul > li:nth-child(1):hover {
+        transform: translate(0);
     }
 }
 
