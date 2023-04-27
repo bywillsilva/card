@@ -145,8 +145,9 @@ nav > ul > li:hover {
     font-size: var(--title);
 
     background-image: var(--gradient);
-    -webkit-text-fill-color: transparent;
     background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     background-size: 500%;
     animation: animate-text 5s linear infinite;
 }
@@ -154,8 +155,9 @@ nav > ul > li:hover {
 .home > div > p {
     font-size: var(--text);
     background-image: var(--gradient);
-    -webkit-text-fill-color: transparent;
     background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     background-size: 500%;
     animation: animate-text 5s linear;
 }
