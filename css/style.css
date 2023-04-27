@@ -115,6 +115,15 @@ nav > ul {
 
 nav > ul > li {
     padding: 50px 0;
+    transition: ease-in-out .3s;
+}
+
+.dontTouch {
+    animation: dontTouch 1s linear;
+}
+
+nav > ul > li:hover {
+    transform: translate(0, -5px);
 }
 
 .home {
@@ -200,11 +209,10 @@ nav > ul > li {
         height: 100%;
         background-color: var(--black);
     }
-    
+
     .menu-itens {
         position: relative;
         top: -30px;
-        flex-wrap: nowrap;
         flex-direction: column;
         height: 70vh;
     }
@@ -224,7 +232,7 @@ nav > ul > li {
     }
 }
 
-@keyframes animate-text{
+@keyframes animate-text {
     0% {
         background-position: 0;
         transition: ease-in-out 1s;
@@ -233,5 +241,31 @@ nav > ul > li {
     100% {
         background-position: 100%;
         transition: ease-in-out 1s;
+    }
+}
+
+@keyframes dontTouch {
+    0% {
+        transform: translate(0);
+    }
+
+    20% {
+        transform: translate(-5px, 0);
+    }
+
+    40% {
+        transform: translate(5px, 0);
+    }
+
+    60% {
+        transform: translate(-5px, 0);
+    }
+
+    80% {
+        transform: translate(5px, 0);
+    }
+
+    100% {
+        transform: translate(0);
     }
 }

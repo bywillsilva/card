@@ -1,5 +1,6 @@
 const grid = document.querySelector("#grid");
 const menu = document.querySelector("#menu");
+const title = document.querySelector("#title");
 
 grid.addEventListener("click", () => {
     let onDisplay = window.getComputedStyle(menu).display;
@@ -14,4 +15,11 @@ grid.addEventListener("click", () => {
         menu.classList.remove("center");
         grid.src = "./icons/grid-icon.svg";
     }
+});
+
+title.addEventListener("click", () => {
+    title.classList.add("dontTouch");
+    setTimeout(() => {
+        title.classList.remove("dontTouch");
+    }, 1000);
 });
