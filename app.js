@@ -31,7 +31,7 @@ contato.addEventListener("click", () => {
     checkGrid();
     mainTitle.innerHTML = "Contato";
     mainText.classList.add("p");
-    mainText.innerHTML = "<a href='https://mail.google.com/mail/u/0/#inbox?compose=new' target='_blank'>willian.raniere@icloud.com</a> <br> <a href='https://instagram.com/bywill_silva' target='_blank'>@bywill_silva</a> <br> <a href='https://wa.me/+5584986046531' target='_blank'>(84) 9 8604-6531</a>";
+    mainText.innerHTML = "<ul><li><a href='https://mail.google.com/mail/u/0/#inbox?compose=new' target='_blank'>willian.raniere@icloud.com</a></li><li><a href='https://instagram.com/bywill_silva' target='_blank'>@bywill_silva</a></li><li><a href='https://wa.me/+5584986046531' target='_blank'>(84) 9 8604-6531</a></li></ul>";
 });
 
 const checkGrid = () => {
