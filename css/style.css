@@ -79,6 +79,10 @@ html {
     line-height: 35px;
 }
 
+.p > ul {
+    list-style: none;
+}
+
 a {
     text-decoration: underline;
 }
