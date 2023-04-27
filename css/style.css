@@ -79,6 +79,11 @@ html {
     line-height: 35px;
 }
 
+a {
+    text-decoration: underline;
+    color: blue;
+}
+
 body {
     font-family: var(--font-style);
     color: var(--white);
