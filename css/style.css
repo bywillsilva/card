@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
 
+@font-face {
+    font-family: "Righteous Off";
+    src: url("./../fonts/Righteous-Regular.ttf");
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -14,7 +19,7 @@ html {
     --theme: #1d1d20;
     --white: #d1d1d1;
 
-    --font-style: "Righteous", cursive;
+    --font-style: "Righteous", "Righteous Off";
     --title: 5rem;
     --text: 1.5rem;
 }
