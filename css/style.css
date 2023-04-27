@@ -29,6 +29,11 @@ html {
     flex-direction: column;
 }
 
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
 .center {
     align-items: center;
     justify-content: center;
@@ -93,10 +98,67 @@ nav > ul > li {
     width: 40px;
     cursor: pointer;
     align-self: center;
+
+    animation: animate 2s infinite;
+}
+
+.none {
+    display: none;
+}
+
+.menu {
+    position: absolute;
+    width: 80%;
+    bottom: 160px;
+}
+
+.menu-itens {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    max-width: 160px;
+    flex-wrap: wrap;
+    border-radius: 10px;
+}
+
+.menu-itens::after {
+    content: "";
+    position: absolute;
+    bottom: -30px;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-top: 30px solid rgba(0, 0, 0, 0.7);
+}
+
+.menu-itens > div {
+    cursor: pointer;
+    margin: 15px 10px;
+    width: 60px;
+}
+
+.menu-itens > div > span {
+    font-size: 1rem;
+}
+
+.menu-itens > div > img {
+    height: 30px;
 }
 
 @media (max-width: 700px) {
     .home {
         height: 90vh;
+    }
+}
+
+@keyframes animate {
+    0% {
+        bottom: 50px;
+    }
+
+    50% {
+        bottom: 70px;
+    }
+
+    100% {
+        bottom: 50px;
     }
 }
