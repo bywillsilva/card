@@ -7,11 +7,11 @@ grid.addEventListener("click", () => {
         menu.classList.remove("none");
         menu.classList.add("flex-column");
         menu.classList.add("center");
-        grid.setAttribute("src", "./icons/close-icon.svg");
+        grid.src = "./icons/close-icon.svg";
     } else {
         menu.classList.add("none");
         menu.classList.remove("flex-column");
         menu.classList.remove("center");
-        grid.setAttribute("src", "./icons/grid-icon.svg");
+        grid.src = "./icons/grid-icon.svg";
     }
 });
