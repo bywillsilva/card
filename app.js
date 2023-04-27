@@ -15,7 +15,7 @@ sobre.addEventListener("click", () => {
     mainTitle.innerHTML = "Sobre mim";
     mainText.classList.add("p");
     mainText.innerHTML =
-        "Olá! Me chamo Willian como você já sabe mas pode me chamar de Will.<br> Iniciei minha carreira dev em 2019 e desde então não parei mais. No decorrer desse tempo já desenvolvi muitos projetos com a minha linguagem preferida, JavaScript.";
+        "Olá! Pode me chamar de Will. Iniciei minha carreira dev em 2019 e desde então não parei mais. No decorrer desse tempo já desenvolvi muitos projetos com a minha linguagem preferida, JavaScript.";
 });
 
 const skills = document.querySelector("#skills");
