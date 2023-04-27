@@ -6,7 +6,11 @@ const mainText = document.querySelector("#mainText");
 
 const home = document.querySelector("#home");
 home.addEventListener("click", () => {
-    window.location.reload();
+    checkGrid();
+    mainTitle.innerHTML = "Willian Raniere";
+    mainText.classList.add("p");
+    mainText.innerHTML =
+        "Front-end Developer";
 });
 
 const sobre = document.querySelector("#sobre");
