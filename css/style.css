@@ -22,6 +22,7 @@ html {
     --font-style: "Righteous", "Righteous Off";
     --title: 5rem;
     --text: 1.5rem;
+    --lower-case: 1rem;
 
     --gradient: linear-gradient(
         to right,
@@ -70,6 +71,12 @@ html {
 .left {
     align-items: flex-start;
     justify-content: center;
+}
+
+.p {
+    font-size: var(--text) !important;
+    letter-spacing: 1px;
+    line-height: 35px;
 }
 
 body {
@@ -141,7 +148,7 @@ nav > ul > li:hover {
     -webkit-text-fill-color: transparent;
     background-clip: text;
     background-size: 500%;
-    animation: animate-text 10s linear infinite;
+    animation: animate-text 5s linear infinite;
 }
 
 .home > div > p {
@@ -150,7 +157,7 @@ nav > ul > li:hover {
     -webkit-text-fill-color: transparent;
     background-clip: text;
     background-size: 500%;
-    animation: animate-text 10s linear;
+    animation: animate-text 5s linear;
 }
 
 .home > img {
@@ -191,7 +198,7 @@ nav > ul > li:hover {
 }
 
 .menu-itens > div > span {
-    font-size: 1rem;
+    font-size: var(--lower-case);
 }
 
 .menu-itens > div > img {
@@ -219,6 +226,12 @@ nav > ul > li:hover {
 
     nav > ul > li:nth-child(1):hover {
         transform: translate(0);
+    }
+
+    .p {
+        font-size: var(--lower-case) !important;
+        line-height: 25px;
+        text-align: justify;
     }
 }
 
