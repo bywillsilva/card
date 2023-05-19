@@ -105,6 +105,7 @@ header {
 
 nav {
     width: 100%;
+    align-self: flex-end;
 }
 
 nav > ul {
@@ -113,24 +114,24 @@ nav > ul {
     list-style: none;
 }
 
-.icon {
-    width: 30px;
+nav > ul > div {
+    align-items: center;
 }
 
-nav {
-    align-self: flex-end;
+.icon {
+    width: 2rem;
 }
 
 nav > ul > li:nth-child(1) {
     font-size: var(--text);
 }
 
-nav > ul > li {
-    padding: 50px 0;
+nav > ul li {
+    padding: 50px 10px;
     transition: ease-in-out 0.3s;
 }
 
-nav > ul > li:hover {
+nav > ul li:hover {
     transform: translate(0, -5px);
 }
 
@@ -167,7 +168,7 @@ nav > ul > li:hover {
     animation: animate-text 5s linear;
 }
 
-.home > img {
+.home > #grid {
     position: absolute;
     bottom: 40px;
     width: 40px;
@@ -176,6 +177,18 @@ nav > ul > li:hover {
     z-index: 1;
 
     animation: animate 2s infinite;
+}
+
+.home > #terminal {
+    background-image: var(--gradient);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 500%;
+    animation: animate-text 5s linear infinite;
+    
+    font-size: var(--text);
+    align-self: flex-end;
 }
 
 .none {
