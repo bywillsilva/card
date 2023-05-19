@@ -119,11 +119,11 @@ nav > ul > div {
 }
 
 .icon {
-    width: 2rem;
+    width: 1.8rem;
 }
 
-nav > ul > li:nth-child(1) {
-    font-size: var(--text);
+nav > ul > li:nth-child(1) > img {
+    width: 6rem;
 }
 
 nav > ul li {
@@ -177,18 +177,6 @@ nav > ul li:hover {
     z-index: 1;
 
     animation: animate 2s infinite;
-}
-
-.home > #terminal {
-    background-image: var(--gradient);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-size: 500%;
-    animation: animate-text 5s linear infinite;
-    
-    font-size: var(--text);
-    align-self: flex-end;
 }
 
 .none {
