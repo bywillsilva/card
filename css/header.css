@@ -1,0 +1,67 @@
+.icon {
+    width: 1.8rem;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    width: 80%;
+}
+
+nav {
+    width: 100%;
+}
+
+nav ul {
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+
+nav div {
+    align-items: center;
+}
+
+
+nav li:nth-child(1) > img {
+    width: 6rem;
+}
+
+nav div li {
+    padding: 50px 10px;
+    transition: ease-in-out 0.3s;
+}
+
+nav li:hover {
+    transform: translate(0, -5px);
+}
+
+.dontTouch {
+    animation: dontTouch 1s linear;
+}
+
+@keyframes dontTouch {
+    0% {
+        transform: translate(0);
+    }
+
+    20% {
+        transform: translate(-5px, 0);
+    }
+
+    40% {
+        transform: translate(5px, 0);
+    }
+
+    60% {
+        transform: translate(-5px, 0);
+    }
+
+    80% {
+        transform: translate(5px, 0);
+    }
+
+    100% {
+        transform: translate(0);
+    }
+}
