@@ -7,7 +7,7 @@ const mainText = document.querySelector("#mainText");
 const home = document.querySelector("#home");
 home.addEventListener("click", () => {
     checkGrid();
-    mainTitle.innerHTML = "Willian Raniere";
+    mainTitle.innerHTML = "byWill";
     mainText.classList.add("p");
     mainText.innerHTML =
         "Front-end Developer";
