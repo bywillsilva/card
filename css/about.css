@@ -1,0 +1,10 @@
+.about {
+    align-items: center;
+}
+
+.about p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: var(--lower-case);
+    text-indent: 15px;
+    text-align: justify;
+}

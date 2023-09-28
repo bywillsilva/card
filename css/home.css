@@ -1,12 +1,15 @@
-.home {
+.home,
+.about {
     justify-content: center;
+    align-items: center;
     box-sizing: border-box;
     padding-bottom: 40px;
     height: 100vh;
     width: 100%;
 }
 
-.home h1 {
+.home h1,
+.about h1 {
     font-weight: 900;
     font-size: var(--title);
 
@@ -18,7 +21,8 @@
     animation: animate-text 5s linear infinite;
 }
 
-.home p {
+.home p,
+.about p {
     font-size: var(--text);
     background-image: var(--gradient);
     background-clip: text;
