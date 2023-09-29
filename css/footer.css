@@ -10,13 +10,32 @@ footer ul {
 
 footer li {
     text-align: center;
-    border: 1px solid gray;
+    border: 1px solid var(--theme);
     flex:1 1;
     margin: 10px;
     padding: 50px 10px;
-    transition: ease-in-out 0.3s;
+    transition: ease-in-out .5s;
 }
 
 footer li:hover {
+    border: 1px solid var(--white);
+    background-image: var(--gradient);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 500%;
+    animation: animate-card 5s linear;
     transform: translate(0, -5px);
+}
+
+@keyframes animate-card {
+    0% {
+        background-position: 0;
+        transition: ease-in-out 2s;
+    }
+
+    100% {
+        background-position: 100%;
+        transition: ease-in-out 2s;
+    }
 }
