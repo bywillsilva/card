@@ -2,18 +2,6 @@
     width: 100%;
 }
 
-@media (min-width: 800px) {
-    .habilities {
-        height: 50vh;
-    } 
-}
-
-@media (max-width: 800px) {
-    .habilities {
-        margin-bottom: 50px;
-    }
-}
-
 .habilities > p {
     font-size: var(--lower-case);
     background-image: var(--gradient);

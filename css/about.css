@@ -1,17 +1,23 @@
 .about {
     width: 100%;
-}
-
-.about div {
-    align-items: center;
     justify-content: center;
 }
 
-.about h2 {
-    margin: 50px 0;
+@media (min-width: 700px) {
+    .about {
+        height: 100vh;
+    }
 }
 
-.about p {
+.about > div {
+    align-items: center;
+}
+
+.about h2 {
+    margin-bottom: 50px;
+}
+
+.about > div > p {
     font-family: 'Montserrat', sans-serif;
     font-size: var(--lower-case);
     text-align: justify;
