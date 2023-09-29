@@ -1,0 +1,11 @@
+.experience {
+    width: 100%;
+}
+
+.experience div {
+    align-items: center;
+}
+
+.experience h2 {
+    margin-bottom: 50px;
+}

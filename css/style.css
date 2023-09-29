@@ -67,7 +67,6 @@ html {
 
 .p {
     font-size: var(--text);
-    letter-spacing: 1px;
     line-height: 35px;
 }
 
