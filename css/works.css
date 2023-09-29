@@ -1,24 +1,24 @@
-.about {
+.works {
     width: 100%;
     justify-content: center;
 }
 
+
 @media (min-width: 700px) {
-    .about {
+    .works {
         height: 100vh;
     }
 }
 
-.about > div {
+
+.works div {
     align-items: flex-start;
 }
 
-.about h2 {
+.works h2 {
     margin: 50px 0;
 }
 
-.about > div > p {
+.works p {
     font-size: var(--lower-case);
-    text-align: justify;
-    text-indent: 15px;
 }

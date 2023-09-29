@@ -1,5 +1,12 @@
 .experience {
     width: 100%;
+    justify-content: center;
+}
+
+@media (min-width: 700px) {
+    .experience {
+        height: 100vh;
+    }
 }
 
 .experience > div {
@@ -16,6 +23,7 @@
 
 .experience .card div  {
     align-items: flex-start;
+    justify-content: space-between;
 }
 
 .experience .card div p {
@@ -34,6 +42,6 @@
 }
 
 .experience .card div p:nth-child(2) {
-    margin: 0 20px;
+    margin-left: 20px;
     opacity: 0.5;
 }

@@ -10,7 +10,9 @@
 
 .home h1,
 .about h2,
-.experience h2 {
+.experience h2,
+.works h2,
+.contact h2 {
     font-weight: 900;
     font-size: var(--title);
 
@@ -22,8 +24,7 @@
     animation: animate-text 5s linear infinite;
 }
 
-.home p,
-.about > p{
+.home p  {
     font-size: var(--text);
     background-image: var(--gradient);
     background-clip: text;
