@@ -2,10 +2,38 @@
     width: 100%;
 }
 
-.experience div {
+.experience > div {
     align-items: flex-start;
 }
 
 .experience h2 {
     margin: 50px 0;
+}
+
+.experience .card p{
+    font-size: var(--lower-case);
+}
+
+.experience .card div  {
+    align-items: flex-start;
+}
+
+.experience .card div p {
+    font-size: var(--lower-case);
+}
+
+.experience .card div p:nth-child(1) {
+    font-size: var(--lower-case);
+    background-image: var(--gradient);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 500%;
+    animation: animate-text 5s infinite;
+    text-align: left;
+}
+
+.experience .card div p:nth-child(2) {
+    margin: 0 20px;
+    opacity: 0.5;
 }

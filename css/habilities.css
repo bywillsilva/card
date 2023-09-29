@@ -13,12 +13,12 @@
     margin: 10px 0;
 }
 
-.cards {
+.habilities .cards {
     justify-content: space-between;
     flex-wrap: wrap;
 }
 
-.card {
+.habilities .card {
     flex: 1 0 100px;
     margin: 5px;
     border: 1px solid var(--white);
@@ -26,13 +26,13 @@
     border-radius: 5px;
 }
 
-.card p {
+.habilities .card p {
     margin: 5px;
     text-align: center;
     font-size: var(--lower-case);
 }
 
-.card:hover {
+.habilities .card:hover {
     border: 1px solid transparent;
     background-image: var(--gradient);
     background-clip: text;

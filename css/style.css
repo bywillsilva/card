@@ -87,6 +87,10 @@ main {
     width: 80%;
 }
 
+hr {
+    margin: 15px 0;
+}
+
 @media (max-width: 700px) {
     .home {
         height: 100vh;
