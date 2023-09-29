@@ -10,11 +10,11 @@
 }
 
 .about > div {
-    align-items: center;
+    align-items: flex-start;
 }
 
 .about h2 {
-    margin: 50px;
+    margin: 50px 0;
 }
 
 .about > div > p {

@@ -3,9 +3,9 @@
 }
 
 .experience div {
-    align-items: center;
+    align-items: flex-start;
 }
 
 .experience h2 {
-    margin: 50px;
+    margin: 50px 0;
 }
