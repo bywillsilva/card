@@ -42,7 +42,7 @@
     animation: animate-card 5s infinite;
 }
 
-@keyframes animate-text {
+@keyframes animate-card {
     0% {
         background-position: 0;
         transition: ease-in-out 2s;
